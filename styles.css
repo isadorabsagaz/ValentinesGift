@@ -1,0 +1,48 @@
+
+.chakra-petch-light {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+body{
+    background-image: linear-gradient(120deg, #ffb0b0, #F4CBCB ); 
+    text-align: center; 
+    margin: 0; 
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#image-container{
+    margin: 0;
+}
+
+#question{
+    font-family: "Chakra Petch";
+    font-size: 55px;
+    color:#f0e1e8;
+    text-shadow: 3px 3px 4px #a80348;
+}
+
+#options{
+   margin-top: 20px; 
+}
+
+button{
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 25px;
+    font-family: "Chakra Petch";
+    background-color: #f85498;
+    color: #f0e1e8; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #FFDDEB;
+    cursor: pointer;
+}
